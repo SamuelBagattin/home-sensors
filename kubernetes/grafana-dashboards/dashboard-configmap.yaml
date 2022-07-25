@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: home-sensors-grafana-dashboard
   labels:
-    grafana_dashboard: "1"
+    grafana_dashboard: true
 data:
   apiserver.json: |-
     {
