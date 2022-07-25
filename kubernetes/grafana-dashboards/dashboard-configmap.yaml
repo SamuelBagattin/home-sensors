@@ -4,6 +4,8 @@ metadata:
   name: home-sensors-grafana-dashboard
   labels:
     grafana_dashboard: "true"
+  annotations:
+    test: test
 data:
   apiserver.json: |-
     {
